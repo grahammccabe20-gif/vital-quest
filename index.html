@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vital Quest</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #111; }
+  </style>
+</head>
+<body>
+  <!-- Phaser loaded from a CDN: no installs or build step needed -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+
+  <!-- Each scene is its own file so teammates can work without merge conflicts -->
+  <script src="src/scenes/MenuScene.js"></script>
+  <script src="src/scenes/GameScene.js"></script>
+  <script src="src/scenes/EndScene.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
